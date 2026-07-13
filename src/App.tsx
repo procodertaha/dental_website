@@ -6,6 +6,7 @@ import WhyUs from './components/WhyUs';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ChatWidget from "./components/ChatWidget";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Reviews />
       <Contact />
       <Footer />
+      <ChatWidget />
     </div>
   );
 }
