@@ -1,0 +1,17 @@
+[33mcommit e69642e6fd84e800d794691a649d6142a7e00e20[m
+Author: Taha Siddiqui <tahasiddiqui373@gmail.com>
+Date:   Mon Jul 13 16:28:23 2026 +0500
+
+    add chat bot
+
+ .gitignore                    |    1 [32m+[m
+ package-lock.json             | 1434 [32m++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ package.json                  |    7 [32m+[m
+ server/clinicinfo.js          |   15 [32m+[m
+ server/data/knowledge.txt     |    0
+ server/index.js               |   62 [32m++[m
+ server/routes/chat.js         |    0
+ server/services/openi.js      |    0
+ src/App.tsx                   |    2 [32m+[m
+ src/components/ChatWidget.tsx |  237 [32m+++++++[m
+ 10 files changed, 1744 insertions(+), 14 deletions(-)
