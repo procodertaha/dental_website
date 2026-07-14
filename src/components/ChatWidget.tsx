@@ -44,7 +44,7 @@ export default function ChatWidget() {
           content: msg.text,
         }));
 
-      const response = await fetch("http://localhost:5000/chat", {
+      const response = await fetch("https://dentalwebsite-production-df88.up.railway.app/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
