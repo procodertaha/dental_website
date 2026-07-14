@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import OpenAI from "openai";
-import clinicInfo from "./clinicInfo.js";
+import clinicInfo from "./clinicinfo.js";
 
 dotenv.config();
 
@@ -60,3 +60,4 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
